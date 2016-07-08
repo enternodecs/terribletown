@@ -20,12 +20,19 @@ Installation
 Vanilla TTT: Just drag'n'drop into the server's addon folder. No FastDL setup required as this addon is pure Lua.
 
 TTT with Custom Weapons:
+
 ***THIS ADDON IS BEST USED IN CONJUNCTION WITH NO OTHER CUSTOM WEAPONS***
+
 1. Drag'n'drop the folder into the /addon/ folder
+
 2. Extract all custom weapon addons
+
 Back these up in case you fuck something up
+
 3. Open the lua file for the custom weapon. If the weapon has multiple files, open shared.lua
+
 4. Add the following code somewhere in the file:
+
 SWEP.MovingInaccuracyMult	= 5
 SWEP.ADSBonus				= .7
 SWEP.BaseCone				= Set it your goddamn self
