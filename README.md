@@ -25,13 +25,13 @@ Overall, it rewards planning your shots and aiming for the head, especially agai
 
 Installation
 
-Vanilla TTT: Just drag'n'drop into the server's addon folder. No FastDL setup required as this addon is pure Lua.
+Vanilla TTT: Just drag'n'drop the "Trouble in Terrible Town" folder into the server's addon folder. No FastDL setup required as this addon is pure Lua.
 
 TTT with Custom Weapons:
 
 ***THIS ADDON IS BEST USED IN CONJUNCTION WITH NO OTHER CUSTOM WEAPONS***
 
-1. Drag'n'drop the folder into the /addon/ folder
+1. Drag'n'drop the "Trouble in Terrible Town" folder into the /addon/ folder
 
 2. Extract all custom weapon addons
 
