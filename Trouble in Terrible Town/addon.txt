@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"				"Trouble in Terrible Town: A Weapon Rehaul"
+	"version"			"0.1"
+	"up_date"			"7/8/2016"
+	"author_name"			"PikaTemmie aka TeamEnternode"
+	"author_url"			"https://github.com/TeamEnternode/terribletown"
+	"info"				"Custom weapons."
+	"override"			"0"
+}
