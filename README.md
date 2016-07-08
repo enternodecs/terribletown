@@ -41,22 +41,22 @@ Back these up in case you fuck something up
 
 4. Add the following code somewhere in the file:
 
-SWEP.MovingInaccuracyMult	= 5
+SWEP.MovingInaccuracyMult	= ?
 
-SWEP.ADSBonus				= .7
+SWEP.ADSBonus				= ?
 
-SWEP.BaseCone				= Set it your goddamn self
+SWEP.BaseCone				= ?
 
-SWEP.MaxCone				= 0.4
+SWEP.MaxCone				= ?
 
-SWEP.MaxShoot               = 0.1
+SWEP.MaxShoot               = ?
 
-SWEP.ConeShootMult			= 1.25
+SWEP.ConeShootMult			= ?
 
-SWEP.JumpingInaccuracyMult  = 4
+SWEP.JumpingInaccuracyMult  = ?
 
 5. Adjust the values:
-6. 
+
 MovingInaccuracyMult is how much the weapon's spread is multiplied by when the user moves. Can be anything between 1 and infinity, but should never be bigger than 15.
 ADSBonus is how much the weapon's spread is multiplied by when the user aims. Can be anything between 1 and 0.
 BaseCone should be set to the EXACT SAME THING as SWEP.Cone. CTRL+F it if you can't find it
