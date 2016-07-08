@@ -123,8 +123,6 @@ SWEP.MaxCone				= 0.2
 SWEP.MaxShoot               = 0.1
 SWEP.ConeShootMult			= 1.333
 SWEP.JumpingInaccuracyMult  = 3.25
-SWEP.Cooldown               = 1
-SWEP.rnd                    = 0
 
 SWEP.StoredAmmo = 0
 SWEP.IsDropped = false
@@ -333,13 +331,10 @@ function SWEP:ShootBullet( dmg, recoil, numbul, cone )
    self.Owner:FireBullets( bullet )
     
     
-    local cooldowntotal = self.Cooldown*10
     self.Primary.Cone = self.Primary.Cone * self.ConeShootMult
-    --print("Cone added by ", (self.ConeShootMult/10))
     if self.Primary.Cone > self.MaxShoot then self.Primary.Cone = self.MaxShoot end
     timer.Create("fuck you", self.Primary.Delay, 1, function() 
         self.Primary.Cone = self.BaseCone
-        --print("Cone subtracted by ",((self.ConeShootMult/10)/cooldowntotal))
     end )
    
 
